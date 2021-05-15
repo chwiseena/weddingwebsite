@@ -1,8 +1,8 @@
 <template>
   <div class="wedding-party-member row">
     <div class="text-column column">
-        <div>{{name}}</div>
-        <div>{{description}}</div>
+        <div class="wedding-party-member-name">{{name}}</div>
+        <div class="wedding-party-member-description">{{description}}</div>
     </div>
     <div class="image-column column">
         <img class="wedding-party-member-image" :src="resolve_img_url(filename)" />

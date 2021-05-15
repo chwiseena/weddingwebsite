@@ -1,11 +1,11 @@
 <template>
   <div class="wedding-party-member row">
-    <div class="image-column column">
+    <div class="image-column-alt column">
         <img class="wedding-party-member-image" :src="resolve_img_url(filename)" />
     </div>
-    <div class="text-column column">
-        <div>{{name}}</div>
-        <div>{{description}}</div>
+    <div class="text-column-alt column">
+        <div class="wedding-party-member-name">{{name}}</div>
+        <div class="wedding-party-member-description">{{description}}</div>
     </div>
   </div>
 </template>

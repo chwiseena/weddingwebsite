@@ -4,11 +4,17 @@
     <div class="row">
       <div class="column">
         <WeddingPartyMember name="person 1" description="hello" filename="person.png"/>
+      </div>
+      <div class="column">
+        <WeddingPartyMemberAlt name="person 1" description="hello" filename="person.png"/>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column">
         <WeddingPartyMemberAlt name="person 1" description="hello" filename="person.png"/>
       </div>
       <div class="column">
         <WeddingPartyMember name="person 1" description="hello" filename="person.png"/>
-        <WeddingPartyMemberAlt name="person 1" description="hello" filename="person.png"/>
       </div>
     </div>
   </div>
@@ -34,11 +40,24 @@ export default {
   width: 50%;
 }
 
+.row {
+  border: 1px solid black;
+}
+
 .image-column {
   width: 25%;
 }
 
+.image-column-alt {
+  width: 25%;
+}
+
 .text-column {
+  width: 75%;
+  text-align: right;
+}
+
+.text-column-alt {
   width: 75%;
   text-align: left;
 }
