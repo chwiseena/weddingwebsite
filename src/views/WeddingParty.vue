@@ -1,20 +1,98 @@
 <template>
   <div class="wedding-party">
-    <h1>This is a wedding party page</h1>
-    <div class="row">
+    <div class="row title-row">
       <div class="column">
-        <WeddingPartyMember name="person 1" description="hello" filename="person.png"/>
+        <div>Maid of Honor</div>
       </div>
       <div class="column">
-        <WeddingPartyMemberAlt name="person 1" description="hello" filename="person.png"/>
+        <div>Best Man</div>
       </div>
     </div>
     <div class="row">
       <div class="column">
-        <WeddingPartyMemberAlt name="person 1" description="hello" filename="person.png"/>
+        <WeddingPartyMOH name="Eimi Satoh" description="Eimi and Christina met as 8th graders in the hallowed halls of Harrington Park School. To Christina, Eimi was the new kid from Japan whom she had befriended. To Eimi, Christina's friendliness was plain confusing. But when Christina gave Eimi a most American homecoming by introducing her to the marvels of Rice-A-Roni, Eimi knew Christina was the real deal." descriptionTwo=" The complementarity of Christina's kindness and Eimi's frankness has sustained their friendship over the years. Eimi will tell you without hesitation that 'that color is not your color,' but she'll also be the first to celebrate when you find one that works. It's landed her in hot water at times, but that's exactly why she'll be working to keep all the important bits and pieces running smoothly as maid of honor. She will be taking occasional breaks from her duties to break it down on the dance floor." filename="Eimi.jpeg"/>
       </div>
       <div class="column">
-        <WeddingPartyMember name="person 1" description="hello" filename="person.png"/>
+        <WeddingPartyBM name="Nicholas Ferris" description="hello" filename="person.png"/>
+      </div>
+    </div>
+    <div class="row title-row">
+      <div class="column">
+        <div>Bridal Party</div>
+      </div>
+      <div class="column">
+        <div>Grooms Party</div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column">
+        <WeddingPartyMember name="Aster Schmidt" description="hello" filename="person.png"/>
+      </div>
+      <div class="column">
+        <WeddingPartyMemberAlt name="Andrew Hutcheson" description="hello" filename="person.png"/>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column">
+        <WeddingPartyMemberAlt name="Cassie Smith" description="hello" filename="person.png"/>
+      </div>
+      <div class="column">
+        <WeddingPartyMember name="Doug 'Tugs' Caristo" description="hello" filename="person.png"/>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column">
+        <WeddingPartyMember name="Caitlyn Backer" description="hello" filename="person.png"/>
+      </div>
+      <div class="column">
+        <WeddingPartyMemberAlt name="Evan 'JP' Gainza" description="hello" filename="person.png"/>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column">
+        <WeddingPartyMemberAlt name="CJ Walker" description="hello" filename="person.png"/>
+      </div>
+      <div class="column">
+        <WeddingPartyMember name="Jonathan 'Squeegee' Chisholm" description="hello" filename="person.png"/>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column">
+        <WeddingPartyMember name="Danielle Schiraldi" description="hello" filename="person.png"/>
+      </div>
+      <div class="column">
+        <WeddingPartyMemberAlt name="Mike Medica" description="hello" filename="person.png"/>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column">
+        <WeddingPartyMemberAlt name="Jenn Bateman" description="hello" filename="person.png"/>
+      </div>
+      <div class="column">
+        <WeddingPartyMember name="Myles Ferris" description="hello" filename="person.png"/>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column">
+        <WeddingPartyMember name="Jessica Lloyd" description="hello" filename="person.png"/>
+      </div>
+      <div class="column">
+        <WeddingPartyMemberAlt name="Neil Petersen" description="hello" filename="person.png"/>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column">
+        <WeddingPartyMemberAlt name="Katherine Porfirio" description="hello" filename="person.png"/>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column">
+        <WeddingPartyMember name="Seneca Rasey" description="hello" filename="person.png"/>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column">
+        <WeddingPartyMemberAlt name="Trisha Arora" description="hello" filename="person.png"/>
       </div>
     </div>
   </div>
@@ -24,24 +102,30 @@
 // @ is an alias to /src
 import WeddingPartyMember from "@/components/WeddingPartyMember.vue";
 import WeddingPartyMemberAlt from "@/components/WeddingPartyMemberAlt.vue";
+import WeddingPartyBM from "@/components/WeddingPartyBM.vue";
+import WeddingPartyMOH from "@/components/WeddingPartyMOH.vue";
 
 export default {
   name: "Home",
   components: {
     WeddingPartyMember,
-    WeddingPartyMemberAlt
+    WeddingPartyMemberAlt,
+    WeddingPartyBM,
+    WeddingPartyMOH
   }
 };
 </script>
 
 <style>
+
+.title-row {
+  font-size: 30px;
+  font-style: italic;
+  padding-top: 30px;
+}
 .column {
   float: left;
   width: 50%;
-}
-
-.row {
-  border: 1px solid black;
 }
 
 .image-column {
@@ -68,8 +152,22 @@ export default {
   clear: both;
 }
 
+.wedding-party-member {
+  padding: 10px;
+}
+
 .wedding-party-member-image {
   height: 125px;
   width: 125px;
+}
+
+.wedding-party-member-name {
+  font-size: 22px;
+  padding-bottom: 4px;
+}
+
+.wedding-party-member-description {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
 }
 </style>
