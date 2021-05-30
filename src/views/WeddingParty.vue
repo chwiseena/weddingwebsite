@@ -34,7 +34,7 @@
     </div>
     <div class="row">
       <div class="column">
-        <WeddingPartyMemberAlt name="Cassie Smith" description="hello" filename="person.png"/>
+        <WeddingPartyMemberAlt name="Cassie Smith" description="When Cassie started at ClearCompany right out of college a few years ago, she had no idea that her quirky desk neighbor, Chris, would become one her closest friends. Where Chris is open and friendly, Cassie is more reserved and quiet, so it took some time to really get to know each other. However, after many discussions of work gossip, sharing each other's weeby interests, and getting forced to attend a party at a mostly empty apartment, the friendship was set and there was no going back." filename="cassie.jpg"/>
       </div>
       <div class="column">
         <WeddingPartyMember name="Doug 'Tugs' Caristo" description="hello" filename="person.png"/>
@@ -159,6 +159,7 @@ export default {
 .wedding-party-member-image {
   height: 125px;
   width: 125px;
+  padding-top: 14px;
 }
 
 .wedding-party-member-name {
