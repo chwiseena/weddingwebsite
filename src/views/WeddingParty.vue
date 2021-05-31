@@ -53,7 +53,7 @@
         <WeddingPartyMemberAlt name="CJ Walker" description="hello" filename="person.png"/>
       </div>
       <div class="column">
-        <WeddingPartyMember name="Jonathan 'Squeegee' Chisholm" description="hello" filename="person.png"/>
+        <WeddingPartyMember name="Jonathan 'Squeegee' Chisholm" description="Jonathan met both Christina and Tom during their time together at Lehigh University. An ultimate frisbee teammate of Tom's, he was lucky enough to be present when the lucky couple first met each other. A steadfast friend to each individually and self-proclaimed number one fan of them as a couple, Jonathan lived in Boston with Christina and Tom for their first three years in the city. He looks forward to meeting (and tossing one back with) more friends and family of the bride and groom." filename="jonathan.jpeg"/>
       </div>
     </div>
     <div class="row">
@@ -170,5 +170,12 @@ export default {
 .wedding-party-member-description {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
+    padding-left: 15%;
+}
+
+.wedding-party-member-description-alt {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+    padding-right: 15%;
 }
 </style>

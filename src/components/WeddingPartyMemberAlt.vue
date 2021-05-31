@@ -5,7 +5,7 @@
     </div>
     <div class="text-column-alt column">
         <div class="wedding-party-member-name">{{name}}</div>
-        <div class="wedding-party-member-description">{{description}}</div>
+        <div class="wedding-party-member-description-alt">{{description}}</div>
     </div>
   </div>
 </template>

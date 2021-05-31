@@ -5,8 +5,8 @@
     </div>
     <div class="text-column-alt text-column-moh column">
         <div class="wedding-party-member-name wedding-party-member-name-moh">{{name}}</div>
-        <div class="wedding-party-member-description">{{description}}</div>
-        <div class="wedding-party-member-description-two">{{descriptionTwo}}</div>
+        <div class="wedding-party-member-description-moh">{{description}}</div>
+        <div class="wedding-party-member-description-moh">{{descriptionTwo}}</div>
     </div>
   </div>
 </template>
@@ -57,7 +57,7 @@ export default {
   font-size: 28px;
 }
 
-.wedding-party-member-description-two {
+.wedding-party-member-description-moh {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   padding-top: 4px;
