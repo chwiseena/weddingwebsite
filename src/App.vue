@@ -6,6 +6,7 @@
       <router-link to="/wedding-party">Wedding Party</router-link> |
       <router-link to="/location">Location</router-link>
     </div>
+    <img class="background-image" src="@/assets/background.jpg"/>
     <router-view />
   </div>
 </template>
@@ -15,12 +16,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+html {
+  overflow-y: scroll;
+}
+
 .base {
   font-family: 'Crimson Text', 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: rgb(62,85,103);
 }
 
 .nav {
@@ -29,11 +34,21 @@
 
 .nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: rgb(55,115,142);
   padding: 0 10px;
 }
 
 .nav a.router-link-exact-active {
-  color: #42b983;
+  color: rgb(93,205,130);
 }
+
+.background-image {
+  height: 600px;
+  width: 600px;
+  position: fixed;
+  bottom: 1px;
+  right: 20px;
+  z-index: -1;
+}
+
 </style>

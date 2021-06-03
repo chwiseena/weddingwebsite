@@ -26,7 +26,7 @@
     </div>
     <div class="row">
       <div class="column">
-        <WeddingPartyMember name="Aster Schmidt" description="hello" filename="person.png"/>
+        <WeddingPartyMember name="Aster Schmidt" description="Aster first met Christina as her girlfriend's hallmate's roommate. After noticing Chris's replica portal gun, Aster knew she was a total nerd. Little did she know that they would live together the next year in the Music Appreciation House and grow to be lifelong friends, watching anime and viewing sunrises from the wrong cardinal direction. Thomas was a fellow fris-bro who Aster got to know better through driving him to tournaments and playing webb, moose, and nannerball. Whether playing table top RPGs or shotgunning in shark showers with the two, Aster is very happy to see her good friends get married, and hopes for the best in all their future endeavors (that don't involve Mario Party)." filename="aster.jpg"/>
       </div>
       <div class="column">
         <WeddingPartyMemberAlt name="Andrew Hutcheson" description="hello" filename="person.png"/>
@@ -82,7 +82,7 @@
     </div>
     <div class="row">
       <div class="column">
-        <WeddingPartyMemberAlt name="Katherine Porfirio" description="hello" filename="person.png"/>
+        <WeddingPartyMemberAlt name="Katherine" description="Katherine and Christina met at Lehigh University when they both started the Marching 97 as freshman (and later, both joined Kappa Kappa Psi the same year). They shared a room and bunk beds their sophomore year at the Music Appreciation House, and had several classes together in later years. It was very exciting when Christina moved to Boston because that meant they could bake cookies together! Katherine thinks of Christina as the big sister she never had." filename="katherine.jpg"/>
       </div>
     </div>
     <div class="row">
@@ -118,11 +118,16 @@ export default {
 
 <style>
 
+.wedding-party { 
+  background-color:rgba(255, 255, 255, 0.66);
+}
+
 .title-row {
   font-size: 30px;
   font-style: italic;
   padding-top: 30px;
 }
+
 .column {
   float: left;
   width: 50%;
@@ -159,7 +164,8 @@ export default {
 .wedding-party-member-image {
   height: 125px;
   width: 125px;
-  padding-top: 14px;
+  margin-top: 14px;
+  border-radius: 20px 20px;
 }
 
 .wedding-party-member-name {
@@ -170,7 +176,7 @@ export default {
 .wedding-party-member-description {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
-    padding-left: 15%;
+  padding-left: 15%;
 }
 
 .wedding-party-member-description-alt {

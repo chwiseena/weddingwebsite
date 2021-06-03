@@ -26,7 +26,7 @@ export default {
   },
   methods: {
     resolve_img_url: function (path) {
-      let images = require.context('../assets/', false, /\.png$|\.jpg$|\.jpeg$/)
+      let images = require.context('../assets/weddingParty', false, /\.png$|\.jpg$|\.jpeg$/)
       return images("./"+path)
     }
   }
@@ -37,7 +37,7 @@ export default {
 .wedding-party-bm-image {
   height: 200px;
   width: 200px;
-  padding-top: 18px;
+  margin-top: 18px;
 }
 
 .image-column-bm {
