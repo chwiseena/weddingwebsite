@@ -16,7 +16,7 @@
         <WeddingPartyBM name="Nicholas Ferris" description="hello" filename="person.png"/>
       </div>
     </div>
-    <div class="row title-row">
+    <div class="row title-row title-row-two">
       <div class="column">
         <div>Bridal Party</div>
       </div>
@@ -50,7 +50,7 @@
     </div>
     <div class="row">
       <div class="column">
-        <WeddingPartyMemberAlt name="CJ Walker" description="hello" filename="person.png"/>
+        <WeddingPartyMemberAlt name="CJ Walker" description="CJ and Chris have known each other since they were 5, which means that their friendship reached the legal drinking age this year. Through shared family vacations and swapping manga in middle school to trading rides to marching band in high school, Chris is still the first person CJ texts with news from home or a new anime recommendation." filename="cj.jpg"/>
       </div>
       <div class="column">
         <WeddingPartyMember name="Jonathan 'Squeegee' Chisholm" description="Jonathan met both Christina and Tom during their time together at Lehigh University. An ultimate frisbee teammate of Tom's, he was lucky enough to be present when the lucky couple first met each other. A steadfast friend to each individually and self-proclaimed number one fan of them as a couple, Jonathan lived in Boston with Christina and Tom for their first three years in the city. He looks forward to meeting (and tossing one back with) more friends and family of the bride and groom." filename="jonathan.jpeg"/>
@@ -125,6 +125,9 @@ export default {
 .title-row {
   font-size: 30px;
   font-style: italic;
+}
+
+.title-row-two {
   padding-top: 30px;
 }
 
