@@ -77,7 +77,7 @@
         <WeddingPartyMember name="Jessica Lloyd" description="hello" filename="person.png"/>
       </div>
       <div class="column">
-        <WeddingPartyMemberAlt name="Neil Petersen" description="hello" filename="person.png"/>
+        <WeddingPartyMemberAlt name="Neil Petersen" description="Neil met the bride and groom through coming to Lehigh University to party with a mutual friend. Their relationship started with games (both drinking and video) and has culminated in them becoming neighbors in Somerville, band mates, golfing buddies and most of all, friends. Neil and Tom have bonded over their mutual activities and being chaos partners while he and Christina are both 'people of action', and these similarities have made his relationships between both bride and groom close and extremely special." filename="neil.png"/>
       </div>
     </div>
     <div class="row">
