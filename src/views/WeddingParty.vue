@@ -29,7 +29,7 @@
         <WeddingPartyMember name="Aster Schmidt" description="Aster first met Christina as her girlfriend's hallmate's roommate. After noticing Chris's replica portal gun, Aster knew she was a total nerd. Little did she know that they would live together the next year in the Music Appreciation House and grow to be lifelong friends, watching anime and viewing sunrises from the wrong cardinal direction. Thomas was a fellow fris-bro who Aster got to know better through driving him to tournaments and playing webb, moose, and nannerball. Whether playing table top RPGs or shotgunning in shark showers with the two, Aster is very happy to see her good friends get married, and hopes for the best in all their future endeavors (that don't involve Mario Party)." filename="aster.jpg"/>
       </div>
       <div class="column">
-        <WeddingPartyMemberAlt name="Andrew Hutcheson" description="hello" filename="person.png"/>
+        <WeddingPartyMemberAlt name="Andrew Hutcheson" description="Hutch first met Christina through being in the same incoming group of freshmen for band camp. While not interacting much during band camp, we both were wearing matching plaid shirts at our first midnight kickball and our friendship was set in stone. Little did Hutch or Puddles know at the time, the two were in the same freshman orientation group at college. Puddles would become a minor plot point in Hutch's junior year when Puddles decided to actively participate in pep band for basketball. The minor subplot eventually expanded into the major storyline that was the year all three got together regularly to watch anime when Hutch lived near them in Massachusetts." filename="hutch.jpg"/>
       </div>
     </div>
     <div class="row">
@@ -37,7 +37,7 @@
         <WeddingPartyMemberAlt name="Cassie Smith" description="When Cassie started at ClearCompany right out of college a few years ago, she had no idea that her quirky desk neighbor, Chris, would become one her closest friends. Where Chris is open and friendly, Cassie is more reserved and quiet, so it took some time to really get to know each other. However, after many discussions of work gossip, sharing each other's weeby interests, and getting forced to attend a party at a mostly empty apartment, the friendship was set and there was no going back." filename="cassie.jpg"/>
       </div>
       <div class="column">
-        <WeddingPartyMember name="Doug 'Tugs' Caristo" description="hello" filename="person.png"/>
+        <WeddingPartyMember name="Doug 'Tugs' Caristo" description="Christina, Pud—Tom, and Doug (pictured with his girlfriend Marissa) have been friends for over five years, and Doug cannot believe how the time has flown. Their friendship bloomed after meeting the two during their junior year at Lehigh University. From nights out on the town, travelling the world, high-fantasy RPG games, or even just hanging around one of their living rooms, one would be hard-pressed to find a way not to enjoy the company of the three. Doug cannot wait to see what the future brings for the newly-weds-to-be and look forward to celebrating their relationship taking the next step!" filename="doug.jpeg"/>
       </div>
     </div>
     <div class="row">
@@ -61,7 +61,7 @@
         <WeddingPartyMember name="Danielle Schiraldi" description="hello" filename="person.png"/>
       </div>
       <div class="column">
-        <WeddingPartyMemberAlt name="Mike Medica" description="hello" filename="person.png"/>
+        <WeddingPartyMemberAlt name="Mike Medica" description="Mike (pictured with his girlfriend Sam, known as Medica, Meds, Med, and any other variant on 'Medical') met Christina in high school at NVOT. Though 3 years her senior (but who's counting?), the two became fast friends and quickly bonded over being general goofballs and going to concerts (with the typical threats to his wellbeing from the father of the bride-to-be). He met Tom a few years later on a trip to Lehigh and soon saw the love the lucky couple still shares to this day. He is excited to take part in such a momentous occasion for Christina and Tom!" filename="medica.png"/>
       </div>
     </div>
     <div class="row">

@@ -5,15 +5,17 @@
     <button @click="togglePlacesToStay">Places to Stay</button>
     <button @click="toggleThingsToDo">Things to Do</button>
     <button @click="toggleFoodAndDrink">Food and Drink</button>
-    <places-to-stay
-        v-if="showPlacesToStay"
-    />
-    <things-to-do 
-        v-if="showThingsToDo"
-    />
-    <food-and-drink 
-        v-if="showFoodAndDrink"
-    />
+    <div class="location-subview-section">
+      <places-to-stay
+          v-if="showPlacesToStay"
+      />
+      <things-to-do 
+          v-if="showThingsToDo"
+      />
+      <food-and-drink 
+          v-if="showFoodAndDrink"
+      />
+    </div>
   </div>
 </template>
 
@@ -68,6 +70,11 @@ export default {
 </script>
 
 <style>
+.location-subview-section {
+  padding-top: 20px;
+  background-color:rgba(255, 255, 255, 0.66);
+}
+
 button {
   box-shadow: 0px 10px 14px -7px rgb(52,95,129);
   background-color: rgb(159,216,199);
