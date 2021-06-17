@@ -2,7 +2,8 @@
   <div class="wedding-party-member row">
     <div class="text-column text-column-bm column">
         <div class="wedding-party-member-name wedding-party-member-name-bm">{{name}}</div>
-        <div class="wedding-party-member-description">{{description}}</div>
+        <div class="wedding-party-member-description-bm">{{description}}</div>
+        <div class="wedding-party-member-description-bm">{{descriptionTwo}}</div>
     </div>
     <div class="image-column image-column-bm column">
         <img class="wedding-party-member-image wedding-party-bm-image" :src="resolve_img_url(filename)" />
@@ -18,6 +19,9 @@ export default {
         type: String,
     },
     description: {
+        type: String,
+    },
+    descriptionTwo: {
         type: String,
     },
     filename: {
@@ -53,7 +57,7 @@ export default {
   font-size: 28px;
 }
 
-.wedding-party-member-description-two {
+.wedding-party-member-description-bm {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   padding-top: 4px;
