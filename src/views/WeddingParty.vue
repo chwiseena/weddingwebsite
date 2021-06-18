@@ -58,7 +58,7 @@
     </div>
     <div class="row">
       <div class="column">
-        <WeddingPartyMember name="Trisha Arora" description="After a series of silly first impressions, Trisha met Jonathan’s rambunctious and ridiculous roommates after they started dating. The group podded together during the 2020 Global Pandemic, and got to make up for lost time of not knowing one other by growing exponentially closer with every passing weekend. Trisha and Christina bonded over shared experiences and their goofy demeanors whereas Trisha and Thomas bonded over their shared love for the artist Pitbull. From trips to Puerto Rico to adventures around New England, their friendship felt so easy and natural that seeing them you’d never guess that they have only known each other for a year and a half. Trisha feels incredibly fortunate and lucky to have had such supportive friends in Christina and Puddles and equally as honored to be a part of the bridal group." filename="trisha.jpg"/>
+        <WeddingPartyMember name="Danielle Schiraldi" description="Christina and Danielle met Freshman year at Lehigh University. Danielle remembers the first conversation they had; it was about Donnie Darko and anime. That one conversation slowly turned into more and more and blossomed into an incredible friendship full of laughs, honesty and road trips to New Jersey. The moment Danielle knew she had a lifelong friend was when the day after complaining she was hot, Christina acquired an AC seemingly by magic and shouted across the street, 'I found you an AC!' Danielle is blessed to have such a caring, compassionate and fun friend in her life and is thrilled to be sharing this experience with her." filename="danielle.jpg"/>
       </div>
       <div class="column">
         <WeddingPartyMemberAlt name="Mike Medica" description="Mike (pictured with his girlfriend Sam, known as Medica, Meds, Med, and any other variant on 'Medical') met Christina in high school at NVOT. Though 3 years her senior (but who's counting?), the two became fast friends and quickly bonded over being general goofballs and going to concerts (with the typical threats to his wellbeing from the father of the bride-to-be). He met Tom a few years later on a trip to Lehigh and soon saw the love the lucky couple still shares to this day. He is excited to take part in such a momentous occasion for Christina and Tom!" filename="medica.png"/>
@@ -88,9 +88,11 @@
     <div class="row">
       <div class="column">
         <WeddingPartyMember name="Seneca Rasey" description="The universe brought Christina and Seneca together freshman year of college, living down the hall and around the corner from each other in Lehigh's Lower Cents dorms. Bonding over their love of all things marching band and movie marathons featuring the unparalleled chemistry of Drew Berrymore & Adam Sandler (like seriously, why is no one talking about this), they became fast friends. Two years of living together, a literal brotherhood (shoutouts to KKPsi), plus countless adventures and heart-to-hearts – not to mention their recent discovery of both being triple water signs – cemented this friendship for life." filename="seneca.png"/>
-        <div class="column also-including-column">
-          Also included: Danielle Schiraldi
       </div>
+    </div>
+    <div class="row">
+      <div class="column">
+        <WeddingPartyMemberAlt name="Trisha Arora" description="After a series of silly first impressions, Trisha met Jonathan’s rambunctious and ridiculous roommates after they started dating. The group podded together during the 2020 Global Pandemic, and got to make up for lost time of not knowing one other by growing exponentially closer with every passing weekend. Trisha and Christina bonded over shared experiences and their goofy demeanors whereas Trisha and Thomas bonded over their shared love for the artist Pitbull. From trips to Puerto Rico to adventures around New England, their friendship felt so easy and natural that seeing them you’d never guess that they have only known each other for a year and a half. Trisha feels incredibly fortunate and lucky to have had such supportive friends in Christina and Puddles and equally as honored to be a part of the bridal group." filename="trisha.jpg"/>
       </div>
     </div>
   </div>
