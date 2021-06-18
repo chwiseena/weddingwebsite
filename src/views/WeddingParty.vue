@@ -58,7 +58,7 @@
     </div>
     <div class="row">
       <div class="column">
-        <WeddingPartyMember name="Danielle Schiraldi" description="hello" filename="person.png"/>
+        <WeddingPartyMember name="Trisha Arora" description="After a series of silly first impressions, Trisha met Jonathan’s rambunctious and ridiculous roommates after they started dating. The group podded together during the 2020 Global Pandemic, and got to make up for lost time of not knowing on other by growing exponentially closer with every passing weekend. Trisha and Christina bonded over shared experiences and their goofy demeanors whereas Trisha and Thomas bonded over their shared love for the artist Pitbull. From trips to Puerto Rico to adventures around New England, their friendship felt so easy and natural that seeing them you’d never guess that they have only known each other for a year and a half. Trisha feels incredibly fortunate and lucky to have had such supportive friends in Christina and Puddles and equally as honored to be a part of the bridal group." filename="trisha.jpg"/>
       </div>
       <div class="column">
         <WeddingPartyMemberAlt name="Mike Medica" description="Mike (pictured with his girlfriend Sam, known as Medica, Meds, Med, and any other variant on 'Medical') met Christina in high school at NVOT. Though 3 years her senior (but who's counting?), the two became fast friends and quickly bonded over being general goofballs and going to concerts (with the typical threats to his wellbeing from the father of the bride-to-be). He met Tom a few years later on a trip to Lehigh and soon saw the love the lucky couple still shares to this day. He is excited to take part in such a momentous occasion for Christina and Tom!" filename="medica.png"/>
@@ -69,15 +69,15 @@
         <WeddingPartyMemberAlt name="Jenn Bateman" description="Jenn met Christina freshman year at a party when Christina was introduced as ‘Crazy Russian Chick’. Jenn and Christina’s paths didn’t cross much until Jenn sat with Christina in Calc 1 their junior year and said, ‘Hey!! You’re that Crazy Russian Chick!!’ Little did Jenn know that she was not Russian, but she was crazy (in all the best possible ways), and little did Jenn know that would be the start of an amazing friendship. As the typical poor college kid, Jenn did not want to pay to do laundry in her apartment so Christina graciously allowed Jenn to do it at her house while they studied for calculus. Christina helped Jenn pass the class, and Jenn helped Christina pass biology core III in turn. Over the years, these two grew close as Christina became part of the 457 family, a seamless transition that also involved Thomas. Christina and Jenn became important parts of each other’s lives, helping one another through the many curve balls the game of life has thrown their way. What began as friendly gestures grew into a wonderful friendship that will last a lifetime. Game on." filename="jenn.png"/>
       </div>
       <div class="column">
-        <WeddingPartyMember name="Myles Ferris" description="hello" filename="person.png"/>
+        <WeddingPartyMember name="Neil Petersen" description="Neil met the bride and groom through coming to Lehigh University to party with a mutual friend. Their relationship started with games (both drinking and video) and has culminated in them becoming neighbors in Somerville, band mates, golfing buddies and most of all, friends. Neil and Tom have bonded over their mutual activities and being chaos partners while he and Christina are both 'people of action', and these similarities have made his relationships between both bride and groom close and extremely special." filename="neil.png"/>
+        <div class="column also-including-column">
+          Also included: Myles Ferris
+        </div>
       </div>
     </div>
     <div class="row">
       <div class="column">
         <WeddingPartyMember name="Jessica Lloyd" description="Jess and Christina first met on the way to band camp the beginning of their freshman year at Lehigh. Jess was super nervous because she didn’t know anyone, but upon meeting Christina she knew she had a lifelong friend. Through their many adventures together, including battling mice invasions and escaping a snowed-in cabin, they’ve learned that they’ll always have each other’s backs. Jess couldn’t be more excited to be a part of this next stage in Christina’s life!" filename="jess.jpeg"/>
-      </div>
-      <div class="column">
-        <WeddingPartyMemberAlt name="Neil Petersen" description="Neil met the bride and groom through coming to Lehigh University to party with a mutual friend. Their relationship started with games (both drinking and video) and has culminated in them becoming neighbors in Somerville, band mates, golfing buddies and most of all, friends. Neil and Tom have bonded over their mutual activities and being chaos partners while he and Christina are both 'people of action', and these similarities have made his relationships between both bride and groom close and extremely special." filename="neil.png"/>
       </div>
     </div>
     <div class="row">
@@ -91,8 +91,8 @@
       </div>
     </div>
     <div class="row">
-      <div class="column">
-        <WeddingPartyMemberAlt name="Trisha Arora" description="After a series of silly first impressions, Trisha met Jonathan’s rambunctious and ridiculous roommates after they started dating. The group podded together during the 2020 Global Pandemic, and got to make up for lost time of not knowing on other by growing exponentially closer with every passing weekend. Trisha and Christina bonded over shared experiences and their goofy demeanors whereas Trisha and Thomas bonded over their shared love for the artist Pitbull. From trips to Puerto Rico to adventures around New England, their friendship felt so easy and natural that seeing them you’d never guess that they have only known each other for a year and a half. Trisha feels incredibly fortunate and lucky to have had such supportive friends in Christina and Puddles and equally as honored to be a part of the bridal group." filename="trisha.jpg"/>
+      <div class="column also-including-column">
+        Also included: Danielle Schiraldi
       </div>
     </div>
   </div>
@@ -186,5 +186,10 @@ export default {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
     padding-right: 15%;
+}
+
+.also-including-column {
+  font-style: italic;
+  text-align: left;
 }
 </style>
