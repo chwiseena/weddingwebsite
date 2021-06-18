@@ -1,18 +1,20 @@
 <template>
   <div>
-    Food and Drink
-    <div>
-      <LocationComponent />
-    </div>
+    <FoodAndDrinkComponent name="The Lobster House" address="906 Schellengers Landing Rd, Cape May, NJ 08204" description="The Lobster House is a Cape May classic. This restaurant does not take reservations, but that is no problem, as there is a parked schooner on the dock outside that acts as a raw bar and regular bar for waiting customers. Once inside, enjoy locally caught seafood in an adorable, sea-faring setting with wonderful views of the bay outside. It is a tradition for Christina and her family to come at least once a year for a nice dinner out, and we hope you enjoy there as much as we have!" url="http://thelobsterhouse.com/wordpress/wp-content/uploads/LH_Dinner_menu1.pdf" filename="lobsterHouse.jpg" />
+    <FoodAndDrinkComponent name="The Rusty Nail" address="205 Beach Ave, Cape May, NJ 08204" description="“The Nail,” as it’s known by the locals, is the famed iconic surfer bar and restaurant that made a name for itself in the ‘70s. Back in the day lifeguards, surfers and beautiful beach bunnies gathered around the wood bar that was rumored to be the longest in all of Cape May. Three years ago, Tom and Christina sat at this bar to discuss the potential of getting married in Cape May, and how this bar would make a wonderful after-party spot. Today, it can be a spot to grab bar food by the beach!" url="https://www.caperesorts.com/capemay/rusty-nail" filename="rustyNail.jpg" />
+    <FoodAndDrinkComponent name="Blue Pig Tavern" address="200 Congress Place, Cape May, NJ 08204" description="Known for hearty breakfast, lunch and dinner favorites, the Blue Pig Tavern gets its name from a gambling parlor sited in Congress Hall in the mid-1800s. Earlier still, in the 1700s, Elias Hughes operated a tavern for whalers on this site. It was the first tavern in Cape May. Today, they offer timeless classics and new seasonal delights with ingredients that are always farm-fresh." url="https://www.caperesorts.com/congress-hall/blue-pig-tavern" filename="bluePigTavern.jpg" />
+    <FoodAndDrinkComponent name="The Mad Batter" address="19 Jackson Street, Cape May, NJ 08204" description="Set on historic Jackson Street, The Mad Batter Restaurant & Bar is considered the granddaddy of Cape May’s fine restaurants, and has been the recipient of many critically acclaimed awards. Start the morning with one of their famous breakfasts and come back for lunch and dinner! With a front porch, skylit dining room, and garden terrace, there's a different room to fit each meal of the day." url="https://www.madbatter.com/restaurant-in-cape-may-menu.html" filename="madBatter.jpg" />
+    <FoodAndDrinkComponent name="The Ugly Mug" address="426 Washington Street, Cape May, NJ 08204" description="If you spend any time shopping at the Washington Street Mall, take a stop for some refreshments and lunch at the Ugly Mug! You may notice the many mugs suspended from the ceiling. Unique in Cape May, the mugs belong to members of the Ugly Mug Club. Each member has his own mug, as they did in the old days of Vaudeville and barbershop quartets. While Christina is not a member of the Ugly Mug Club, she has enjoyed a pint (or two!) here, and recommends you do the same!" url="https://uglymug.bar/menu/" filename="uglyMug.jpg" />
+    <FoodAndDrinkComponent name="The Ebbitt Room" address="25 Jackson St, Cape May, NJ 08204" description="Cape May is known for its Victorian style houses, and what better way to enjoy one than with a lovely dinner within one's walls? The Ebbitt Room is a beautiful modern American bistro serving up classic dishes and delicious cocktails. Thomas and Christina snuck away from her family one trip to Cape May to enjoy a date night just the two of them. We can attest, it's great for a date night before the big day!" url="https://www.caperesorts.com/virginia-hotel/ebbittroom" filename="theEbbittRoom.jpg" />
   </div>
 </template>
 
 <script>
-import LocationComponent from "@/components/LocationComponent.vue";
+import FoodAndDrinkComponent from "@/components/FoodAndDrinkComponent.vue";
 export default {
   name: "FoodAndDrink",
   components: {
-    LocationComponent
+    FoodAndDrinkComponent
   }
 };
 </script>

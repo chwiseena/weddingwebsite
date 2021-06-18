@@ -74,7 +74,7 @@
     </div>
     <div class="row">
       <div class="column">
-        <WeddingPartyMember name="Jessica Lloyd" description="hello" filename="person.png"/>
+        <WeddingPartyMember name="Jessica Lloyd" description="Jess and Christina first met on the way to band camp the beginning of their freshman year at Lehigh. Jess was super nervous because she didn’t know anyone, but upon meeting Christina she knew she had a lifelong friend. Through their many adventures together, including battling mice invasions and escaping a snowed-in cabin, they’ve learned that they’ll always have each other’s backs. Jess couldn’t be more excited to be a part of this next stage in Christina’s life!" filename="jess.jpeg"/>
       </div>
       <div class="column">
         <WeddingPartyMemberAlt name="Neil Petersen" description="Neil met the bride and groom through coming to Lehigh University to party with a mutual friend. Their relationship started with games (both drinking and video) and has culminated in them becoming neighbors in Somerville, band mates, golfing buddies and most of all, friends. Neil and Tom have bonded over their mutual activities and being chaos partners while he and Christina are both 'people of action', and these similarities have made his relationships between both bride and groom close and extremely special." filename="neil.png"/>
@@ -87,12 +87,12 @@
     </div>
     <div class="row">
       <div class="column">
-        <WeddingPartyMember name="Seneca Rasey" description="hello" filename="person.png"/>
+        <WeddingPartyMember name="Seneca Rasey" description="The universe brought Christina and Seneca together freshman year of college, living down the hall and around the corner from each other in Lehigh's Lower Cents dorms. Bonding over their love of all things marching band and movie marathons featuring the unparalleled chemistry of Drew Berrymore & Adam Sandler (like seriously, why is no one talking about this), they became fast friends. Two years of living together, a literal brotherhood (shoutouts to KKPsi), plus countless adventures and heart-to-hearts – not to mention their recent discovery of both being triple water signs – cemented this friendship for life." filename="seneca.png"/>
       </div>
     </div>
     <div class="row">
       <div class="column">
-        <WeddingPartyMemberAlt name="Trisha Arora" description="hello" filename="person.png"/>
+        <WeddingPartyMemberAlt name="Trisha Arora" description="After a series of silly first impressions, Trisha met Jonathan’s rambunctious and ridiculous roommates after they started dating. The group podded together during the 2020 Global Pandemic, and got to make up for lost time of not knowing on other by growing exponentially closer with every passing weekend. Trisha and Christina bonded over shared experiences and their goofy demeanors whereas Trisha and Thomas bonded over their shared love for the artist Pitbull. From trips to Puerto Rico to adventures around New England, their friendship felt so easy and natural that seeing them you’d never guess that they have only known each other for a year and a half. Trisha feels incredibly fortunate and lucky to have had such supportive friends in Christina and Puddles and equally as honored to be a part of the bridal group." filename="trisha.jpg"/>
       </div>
     </div>
   </div>
