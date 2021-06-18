@@ -5,7 +5,7 @@
     <img class="about-paragraph-image img-two-third-side" src="@/assets/chrisAndPud/halloween.jpg"/>
     <img class="about-paragraph-image img-square" src="@/assets/chrisAndPud/capeMayDinner.jpg"/>
     <div class="about-paragraph">The story of how Christina and Tom met varies depending on who is telling it. However, the gist of it is that the two of them were at a party together the end of their first semester junior year. Christina was struggling to beat a level in Super Mario Sunshine, and Tom stepped in to offer his expertise on spin-jumps. After spending winter break playing online games together alongside their friends Jonathan 'Squeegee' and Doug 'Tugs', the two had their next hang out when Christina picked Tom up from the airport to head to Lehigh.</div>
-    <div class="about-paragraph">Tom introduced Christina officially to his group of friends, many of whom Christina was previously aquainted. After a few hang-outs, the two confessed their feelings for one another. Many a time was spent eating Hawaiian pizza, playing SSX Tricky, and overall enjoying each other's company. Soon the semester came to a close, and the two both got internships over the summer by Lehigh. Thinking it was silly to pay rent twice while wanting to spend as much time as possible together, the two decided to live together for the summer after six months of knowing each other. The deal worked out spendidly, with the two making lunches together in the mornings and spending the evenings playing Pokemon Go, while enjoying weekends of Beat the Clock beer deals, bowling, and tubing down the Lehigh river.</div>
+    <div class="about-paragraph">Tom introduced Christina officially to his group of friends, many of whom Christina was previously acquainted. After a few hang-outs, the two confessed their feelings for one another. Many a time was spent eating Hawaiian pizza, playing SSX Tricky, and overall enjoying each other's company. Soon the semester came to a close, and the two both got internships over the summer by Lehigh. Thinking it was silly to pay rent twice while wanting to spend as much time as possible together, the two decided to live together for the summer after six months of knowing each other. The deal worked out spendidly, with the two making lunches together in the mornings and spending the evenings playing Pokemon Go, while enjoying weekends of Beat the Clock beer deals, bowling, and tubing down the Lehigh river.</div>
     <img class="about-paragraph-image img-square" src="@/assets/chrisAndPud/noseKiss.jpg"/>
     <img class="about-paragraph-image img-two-third" src="@/assets/chrisAndPud/collegeDate.jpg"/>
     <img class="about-paragraph-image img-square" src="@/assets/chrisAndPud/acousticsInApril.jpg"/>
@@ -33,7 +33,7 @@ export default {
 
 <style scoped>
   .about {
-    background-color:rgba(255, 255, 255, 0.66);
+    background-color:rgba(255, 255, 255, 0.80);
   }
 
   .about-paragraph {

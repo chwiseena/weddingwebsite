@@ -47,11 +47,11 @@ export default {
 }
 
 .places-to-stay-image-column {
-  width: 40%;
+  width: 45%;
 }
 
 .places-to-stay-text-column {
-  width: 60%;
+  width: 55%;
 }
 
 .places-to-stay-image {
