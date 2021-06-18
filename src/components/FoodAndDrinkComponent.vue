@@ -1,13 +1,13 @@
 <template>
-  <div class="places-to-stay-row row">
-    <div class="places-to-stay-image-column image-column column">
-        <img class="places-to-stay-image" :src="resolve_img_url(filename)" />
+  <div class="food-and-drink-row row">
+    <div class="food-and-drink-image-column image-column column">
+        <img class="food-and-drink-image" :src="resolve_img_url(filename)" />
     </div>
-    <div class="places-to-stay-text-column text-column column">
-        <div class="places-to-stay-name">{{name}}</div>
-        <div class="places-to-stay-address">{{address}}</div>
-        <div class="places-to-stay-description">{{description}}</div>
-        <a class="places-to-stay-link" :href="url">Click here to look at a menu!</a>
+    <div class="food-and-drink-text-column text-column column">
+        <div class="food-and-drink-name">{{name}}</div>
+        <div class="food-and-drink-address">{{address}}</div>
+        <div class="food-and-drink-description">{{description}}</div>
+        <a class="food-and-drink-link" :href="url">Click here to look at a menu!</a>
     </div>
   </div>
 </template>
@@ -42,34 +42,34 @@ export default {
 </script>
 
 <style>
-.places-to-stay-row {
+.food-and-drink-row {
   padding: 0px 20% 30px;
 }
 
-.places-to-stay-image-column {
-  width: 40%;
+.food-and-drink-image-column {
+  width: 45%;
 }
 
-.places-to-stay-text-column {
-  width: 60%;
+.food-and-drink-text-column {
+  width: 55%;
 }
 
-.places-to-stay-image {
+.food-and-drink-image {
   height: 200px;
   width: 300px;
   margin-top: 14px;
   border-radius: 20px 20px;
 }
 
-.places-to-stay-text-column {
+.food-and-drink-text-column {
     text-align: left;
 }
 
-.places-to-stay-name {
+.food-and-drink-name {
     font-size: 22px;
 }
 
-.places-to-stay-address {
+.food-and-drink-address {
     font-style: italic;
     font-size: 16px;
     padding-bottom: 6px;
@@ -77,12 +77,12 @@ export default {
     position: relative;
 }
 
-.places-to-stay-description {
+.food-and-drink-description {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
 }
 
-.places-to-stay-link {
+.food-and-drink-link {
   font-family: 'Montserrat', sans-serif;
   position: relative;
   top: 20px;

@@ -43,11 +43,11 @@ export default {
 }
 
 .location-image-column {
-  width: 40%;
+  width: 45%;
 }
 
 .location-text-column {
-  width: 60%;
+  width: 55%;
 }
 
 .location-image {

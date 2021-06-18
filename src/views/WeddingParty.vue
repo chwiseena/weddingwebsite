@@ -88,11 +88,9 @@
     <div class="row">
       <div class="column">
         <WeddingPartyMember name="Seneca Rasey" description="The universe brought Christina and Seneca together freshman year of college, living down the hall and around the corner from each other in Lehigh's Lower Cents dorms. Bonding over their love of all things marching band and movie marathons featuring the unparalleled chemistry of Drew Berrymore & Adam Sandler (like seriously, why is no one talking about this), they became fast friends. Two years of living together, a literal brotherhood (shoutouts to KKPsi), plus countless adventures and heart-to-hearts – not to mention their recent discovery of both being triple water signs – cemented this friendship for life." filename="seneca.png"/>
+        <div class="column also-including-column">
+          Also included: Danielle Schiraldi
       </div>
-    </div>
-    <div class="row">
-      <div class="column also-including-column">
-        Also included: Danielle Schiraldi
       </div>
     </div>
   </div>
@@ -119,7 +117,7 @@ export default {
 <style>
 
 .wedding-party { 
-  background-color:rgba(255, 255, 255, 0.66);
+  background-color:rgba(255, 255, 255, 0.80);
 }
 
 .title-row {
