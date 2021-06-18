@@ -7,6 +7,7 @@
         <div class="wedding-party-member-name wedding-party-member-name-moh">{{name}}</div>
         <div class="wedding-party-member-description-moh">{{description}}</div>
         <div class="wedding-party-member-description-moh">{{descriptionTwo}}</div>
+        <div class="wedding-party-member-description-moh">{{descriptionThree}}</div>
     </div>
   </div>
 </template>
@@ -22,6 +23,9 @@ export default {
         type: String,
     },
     descriptionTwo: {
+        type: String,
+    },
+    descriptionThree: {
         type: String,
     },
     filename: {
