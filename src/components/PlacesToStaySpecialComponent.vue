@@ -7,6 +7,7 @@
         <div class="places-to-stay-name">{{name}}</div>
         <div class="places-to-stay-address">{{address}}</div>
         <div class="places-to-stay-description">{{description}}</div>
+        <div class="places-to-stay-description-extra">{{descriptionExtra}}</div>
         <a class="places-to-stay-link" :href="url">Click here to find out more!</a>
     </div>
   </div>
@@ -14,7 +15,7 @@
 
 <script>
 export default {
-  name: "PlacesToStayComponent",
+  name: "PlacesToStaySpecialComponent",
   props: {
     name: {
         type: String,
@@ -23,6 +24,9 @@ export default {
         type: String,
     },
     description: {
+        type: String,
+    },
+    descriptionExtra: {
         type: String,
     },
     url: {
@@ -80,6 +84,14 @@ export default {
 .places-to-stay-description {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
+}
+
+.places-to-stay-description-extra {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  padding-top: 16px;
+  font-style: italic;
+  font-weight: bold;
 }
 
 .places-to-stay-link {
