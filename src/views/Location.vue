@@ -72,7 +72,7 @@ export default {
 <style>
 .location-subview-section {
   padding-top: 20px;
-  background-color:rgba(255, 255, 255, 0.66);
+  background-color:rgba(255, 255, 255, 0.80);
 }
 
 button {

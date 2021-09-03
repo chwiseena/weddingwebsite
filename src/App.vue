@@ -4,7 +4,8 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about-us">About Us</router-link> |
       <router-link to="/wedding-party">Wedding Party</router-link> |
-      <router-link to="/location">Location</router-link>
+      <router-link to="/location">Location</router-link> |
+      <router-link to="/registry">Registry</router-link>
     </div>
     <img class="background-image" src="@/assets/background.jpg"/>
     <router-view />

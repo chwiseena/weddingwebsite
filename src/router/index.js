@@ -4,6 +4,7 @@ import Home from "../views/Home.vue";
 import About from "../views/About.vue";
 import WeddingParty from "../views/WeddingParty.vue";
 import Location from "../views/Location.vue";
+import Registry from "../views/Registry.vue";
 
 Vue.use(Router);
 
@@ -27,6 +28,11 @@ const routes = [
     path: "/location",
     name: "Location",
     component: Location
+  },
+  {
+    path: "/registry",
+    name: "Registry",
+    component: Registry
   }
 ];
 
