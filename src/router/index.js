@@ -2,6 +2,7 @@ import Vue from "vue";
 import Router from "vue-router";
 import Home from "../views/Home.vue";
 import About from "../views/About.vue";
+import Schedule from "../views/Schedule.vue";
 import WeddingParty from "../views/WeddingParty.vue";
 import Location from "../views/Location.vue";
 import Registry from "../views/Registry.vue";
@@ -19,6 +20,11 @@ const routes = [
     path: "/about-us",
     name: "About Us",
     component: About
+  },
+  {
+    path: "/schedule",
+    name: "Schedule",
+    component: Schedule
   },
   {
     path: "/wedding-party",
