@@ -4,13 +4,13 @@
       <ScheduleComponent timeHeader='24/7' locationHeader='Cape May' scheduleInformation='Tom and Christina are arriving in Cape May a bit earlier to handle last-minute wedding needs. If you arrive early, feel free to reach out to see the soon-to-be newlyweds!' additionalInformation='' />
       <div class="schedule-date">Friday, April 8th</div>
       <ScheduleComponent timeHeader='10:00 AM' locationHeader='Ocean entrance in front of Congress Hall' scheduleInformation='Join Christina in a polar plunge!' additionalInformation='' />
-      <ScheduleComponent timeHeader='TBD' locationHeader='Congress Hall Front Lawn' scheduleInformation='Rehearsal' additionalInformation='' />
-      <ScheduleComponent timeHeader='6:00' locationHeader='The Reeds, Stone Harbor, NJ' scheduleInformation='Rehearsal Dinner' additionalInformation='' />
+      <ScheduleComponent timeHeader='4:00 PM' locationHeader='Congress Hall Front Lawn' scheduleInformation='Rehearsal' additionalInformation='' />
+      <ScheduleComponent timeHeader='6:00 PM' locationHeader='The Reeds, Stone Harbor, NJ' scheduleInformation='Rehearsal Dinner' additionalInformation='- Note that the rehearsal dinner hour location has an outdoor porch, so please prepare for potentially chilly weather!' />
       <div class="schedule-date">Saturday, April 9th</div>
       <ScheduleComponent timeHeader='4:30 PM' locationHeader='Congress Hall Front Lawn' scheduleInformation='Ceremony' additionalInformation='' />
       <ScheduleComponent timeHeader='5:00 PM' locationHeader='Congress Hall Front Lawn' scheduleInformation='Cocktail Hour' additionalInformation='- Note that the cocktail hour will be outside, so please prepare for potentially chilly weather!' />
       <ScheduleComponent timeHeader='6:00 PM' locationHeader='Congress Hall Ballroom' scheduleInformation='Reception' additionalInformation='' />
-      <ScheduleComponent timeHeader='10:00 PM' locationHeader='TBD' scheduleInformation='After Party!' additionalInformation='' />
+      <ScheduleComponent timeHeader='10:00 PM' locationHeader='Congress Hall Boiler Room' scheduleInformation='After Party!' additionalInformation='' />
   </div>
 </template>
 
